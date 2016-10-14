@@ -1,0 +1,72 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="device_on_switch_event" id="*vQMN?dgeG|;73l}ieH]" inline="true" x="67" y="69">
+    <field name="SwitchId">SwitchName.SWITCH_A</field>
+    <field name="connName">ConnName.A0</field>
+    <field name="event">SwitchEvent.MINODE_SWITCH_EVT_OPEN</field>
+    <statement name="HANDLER">
+      <block type="device_show_leds" id="dck}V;6a~SX|-c%8aeWm">
+        <field name="LED00">TRUE</field>
+        <field name="LED10">FALSE</field>
+        <field name="LED20">FALSE</field>
+        <field name="LED30">FALSE</field>
+        <field name="LED40">TRUE</field>
+        <field name="LED01">FALSE</field>
+        <field name="LED11">TRUE</field>
+        <field name="LED21">FALSE</field>
+        <field name="LED31">TRUE</field>
+        <field name="LED41">FALSE</field>
+        <field name="LED02">FALSE</field>
+        <field name="LED12">FALSE</field>
+        <field name="LED22">TRUE</field>
+        <field name="LED32">FALSE</field>
+        <field name="LED42">FALSE</field>
+        <field name="LED03">FALSE</field>
+        <field name="LED13">FALSE</field>
+        <field name="LED23">FALSE</field>
+        <field name="LED33">FALSE</field>
+        <field name="LED43">FALSE</field>
+        <field name="LED04">FALSE</field>
+        <field name="LED14">FALSE</field>
+        <field name="LED24">FALSE</field>
+        <field name="LED34">FALSE</field>
+        <field name="LED44">FALSE</field>
+      </block>
+    </statement>
+    <next>
+      <block type="device_on_switch_event" id="5KVW~E0HAv0]O1aR)(1?" inline="true">
+        <field name="SwitchId">SwitchName.SWITCH_A</field>
+        <field name="connName">ConnName.A0</field>
+        <field name="event">SwitchEvent.MINODE_SWITCH_EVT_CLOSE</field>
+        <statement name="HANDLER">
+          <block type="device_show_leds" id="o7(s]tq99f7NPB![kzp=">
+            <field name="LED00">TRUE</field>
+            <field name="LED10">FALSE</field>
+            <field name="LED20">FALSE</field>
+            <field name="LED30">FALSE</field>
+            <field name="LED40">TRUE</field>
+            <field name="LED01">FALSE</field>
+            <field name="LED11">TRUE</field>
+            <field name="LED21">FALSE</field>
+            <field name="LED31">TRUE</field>
+            <field name="LED41">FALSE</field>
+            <field name="LED02">FALSE</field>
+            <field name="LED12">FALSE</field>
+            <field name="LED22">TRUE</field>
+            <field name="LED32">FALSE</field>
+            <field name="LED42">FALSE</field>
+            <field name="LED03">FALSE</field>
+            <field name="LED13">TRUE</field>
+            <field name="LED23">FALSE</field>
+            <field name="LED33">TRUE</field>
+            <field name="LED43">FALSE</field>
+            <field name="LED04">FALSE</field>
+            <field name="LED14">FALSE</field>
+            <field name="LED24">FALSE</field>
+            <field name="LED34">FALSE</field>
+            <field name="LED44">TRUE</field>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

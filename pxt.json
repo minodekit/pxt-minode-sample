@@ -1,0 +1,19 @@
+{
+    "name": "minode-sample",
+    "version": "0.0.0",
+    "description": "PXT MINode samples",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "minode": "github:minodekit/pxt-minode#master"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
+}
